@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1655740192 source:f:\summer 2022\cse 225.1 thory rjp\oop\unsortedlist\main.cpp
+	<iostream>
+	"UnsortedList.cpp"
+
+1655740705 source:f:\summer 2022\cse 225.1 thory rjp\oop\unsortedlist\unsortedlist.cpp
+	"UnsortedList.h"
+	<iostream>
+
+1655739408 f:\summer 2022\cse 225.1 thory rjp\oop\unsortedlist\unsortedlist.h
+
+1655740705 f:\summer 2022\cse 225.1 thory rjp\oop\unsortedlist\unsortedlist.cpp
+	"UnsortedList.h"
+	<iostream>
+

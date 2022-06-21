@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1655747828 source:f:\summer 2022\cse 225.1 thory rjp\oop\sortedlist\main.cpp
+	<iostream>
+	"SortedList.cpp"
+
+1655748205 source:f:\summer 2022\cse 225.1 thory rjp\oop\sortedlist\sortedlist.cpp
+	"SortedList.h"
+	<iostream>
+
+1655745645 f:\summer 2022\cse 225.1 thory rjp\oop\sortedlist\sortedlist.h
+
+1655748205 f:\summer 2022\cse 225.1 thory rjp\oop\sortedlist\sortedlist.cpp
+	"SortedList.h"
+	<iostream>
+
