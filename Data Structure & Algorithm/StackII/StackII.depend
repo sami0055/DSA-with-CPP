@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1657982680 source:f:\summer 2022\cse 225.1 thory rjp\oop\stackii\stacktype.cpp
+	"stacktype.h"
+
+1657989158 f:\summer 2022\cse 225.1 thory rjp\oop\stackii\stacktype.h
+
+1657990880 source:f:\summer 2022\cse 225.1 thory rjp\oop\stackii\main.cpp
+	<iostream>
+	"stacktype.cpp"
+	"Queue.cpp"
+
+1657982680 f:\summer 2022\cse 225.1 thory rjp\oop\stackii\stacktype.cpp
+	"stacktype.h"
+
+1657984166 source:f:\summer 2022\cse 225.1 thory rjp\oop\stackii\queue.cpp
+	"Queue.h"
+
+1657984187 f:\summer 2022\cse 225.1 thory rjp\oop\stackii\queue.h
+
+1657984166 f:\summer 2022\cse 225.1 thory rjp\oop\stackii\queue.cpp
+	"Queue.h"
+
