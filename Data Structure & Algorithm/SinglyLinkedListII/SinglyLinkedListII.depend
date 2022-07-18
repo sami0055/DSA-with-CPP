@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1658085474 source:f:\summer 2022\cse 225.1 thory rjp\oop\singlylinkedlistii\main.cpp
+	<iostream>
+	"LinkedList.cpp"
+
+1658084647 source:f:\summer 2022\cse 225.1 thory rjp\oop\singlylinkedlistii\linkedlist.cpp
+	"LinkedList.h"
+	<iostream>
+
+1658084636 f:\summer 2022\cse 225.1 thory rjp\oop\singlylinkedlistii\linkedlist.h
+
+1658129950 f:\summer 2022\cse 225.1 thory rjp\oop\singlylinkedlistii\linkedlist.cpp
+	"LinkedList.h"
+	<iostream>
+
