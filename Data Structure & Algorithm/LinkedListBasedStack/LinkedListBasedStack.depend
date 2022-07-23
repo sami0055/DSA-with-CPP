@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1658585677 source:f:\summer 2022\cse 225.1 thory rjp\oop\linkedlistbasedstack\main.cpp
+	<iostream>
+	"Stack.cpp"
+
+1658586268 source:f:\summer 2022\cse 225.1 thory rjp\oop\linkedlistbasedstack\stack.cpp
+	"Stack.h"
+	<iostream>
+
+1658583751 f:\summer 2022\cse 225.1 thory rjp\oop\linkedlistbasedstack\stack.h
+
+1658586268 f:\summer 2022\cse 225.1 thory rjp\oop\linkedlistbasedstack\stack.cpp
+	"Stack.h"
+	<iostream>
+

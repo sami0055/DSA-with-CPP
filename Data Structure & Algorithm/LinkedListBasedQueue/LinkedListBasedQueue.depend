@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1658591492 source:f:\summer 2022\cse 225.1 thory rjp\oop\linkedlistbasedqueue\main.cpp
+	<iostream>
+	"Queue.cpp"
+
+1658591579 f:\summer 2022\cse 225.1 thory rjp\oop\linkedlistbasedqueue\queue.cpp
+	"Queue.h"
+	<iostream>
+
+1658589900 f:\summer 2022\cse 225.1 thory rjp\oop\linkedlistbasedqueue\queue.h
+
+1658591393 source:f:\summer 2022\cse 225.1 thory rjp\oop\linkedlistbasedqueue\queue.cpp
+	"Queue.h"
+	<iostream>
+
