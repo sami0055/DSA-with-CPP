@@ -1,0 +1,83 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+const int N=5;
+int A[N][N];
+bool visited[N][N];
+
+int dx[]={-1,1,0,0,-1,-1,1,1};
+int dy[]={0,0,-1,1,-1,1,-1,1};
+void resetVis()
+{
+    for(int i=0; i<N; i++)
+    {
+        for(int j=0; j<N; j++)
+        {
+            visited[i][j]=false;
+        }
+    }
+}
+bool valid(int x,int y)
+{
+    return (x>=0 && x<5 && y>=0 && y<5 && !visited[x][y]);
+
+}
+void DFS(int x,int y)
+{
+   
+   visited[x][y]=true;
+   for(int i=0; i<8; i++)
+   {
+    int next_x=x+dx[i];
+    int next_y=y+dy[i];
+    if(valid(next_x,next_y))
+    {
+        DFS(next_x,next_y);
+    }
+   }
+
+}
+struct Node{
+ int x;
+ int y;
+};
+
+void BFS(int sx,int sy)
+{
+    queue<Node> q;
+    q.push({sx,sy});
+    visited[sx][sy]=true;
+    while(!q.empty())
+    {
+     int x=q.front().x;
+     int y=q.front().y;
+      
+      q.pop();
+      for(int i=0; i<8; i++)
+      {
+        int next_x=x+dx[i];
+        int next_y=y+dy[i];
+        if(valid(next_x,next_y))
+        {
+            visited[next_x][next_y]=1;
+            q.push({next_x,next_y});
+        }
+      }
+
+
+    }
+
+}
+int main()
+{
+   BFS(2,2);
+   for(int i=0; i<N; i++)
+   {
+    for(int j=0; j<N; j++)
+    {
+        cout<<visited[i][j]<<" ";
+    }
+    cout<<endl;
+   }
+   return 0;
+}
